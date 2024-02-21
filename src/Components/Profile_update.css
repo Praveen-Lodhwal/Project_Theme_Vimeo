@@ -1,0 +1,27 @@
+.update_box{
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  background-color: rgb(241, 245, 244);
+  border: 3px solid rgb(227, 232, 236);
+  padding: 5px;
+  border-radius: 5px;
+  width: 420px;
+}
+
+.input{
+  padding: 3px;
+}
+
+.profile_img{
+  width: 400px;
+  height: 200px;
+  margin-bottom: 2rem;
+  border-radius: 5px;
+}
+
+.btn-success{
+  width: 150px;
+  font-weight: 600;
+  margin-top: 2rem
+}

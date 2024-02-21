@@ -1,0 +1,59 @@
+.comment_section {
+  display: flex;
+  height: 100px;
+}
+
+.image > img {
+  width: 50px;
+  border-radius: 50%;
+  margin-right: 25px;
+}
+
+.input_commetn > input {
+  font-size: 16px;
+  outline: none;
+  width: 630px;
+  height: 40px;
+  border: none;
+  border-bottom: 1px solid rgb(207, 204, 204);
+  margin-bottom: 10px;
+}
+
+.input_commetn > input:hover {
+  border-bottom: 1px solid rgb(10, 10, 10);
+  transition: 0.5s ease-in-out;
+}
+
+.comment_bottam {
+  margin-left: 400px;
+  width: 100%;
+  padding: 3px;
+  display: flex;
+}
+
+.comment_bottam > button {
+  margin-left: 20px;
+}
+
+.btn-danger {
+  background: none;
+  color: rgb(22, 22, 22);
+  font-size: 13px;
+  font-weight: 600;
+  font-family: sans-serif
+}
+
+.btn-danger:hover {
+  background-color: whitesmoke;
+  border-radius: 30px;
+  color: black;
+  transition: 0.3s ease-in-out;
+}
+
+.btn-primary {
+  border: none;
+  font-size: 15px;
+  font-weight: 600;
+  background: lightgray;
+  border-radius: 30px;
+}
